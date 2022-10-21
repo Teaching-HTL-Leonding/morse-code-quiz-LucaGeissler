@@ -1,0 +1,12 @@
+
+<P>Input your morse-code to get a string representing your input as result</P>
+
+<div>
+  <input type="text" [(ngModel)]="inputMorse" placeholder="Enter your text here" (ngModelChange)="inputchanged()" />
+  <button [disabled]="disabledClass" (click)="decode()">Decode</button>
+</div>
+
+<div>
+  <input type="text" [(ngModel)]="outputText" placeholder="Your morse code will be displayed here" readonly
+    [class]="inputWasValidClass" />
+</div>

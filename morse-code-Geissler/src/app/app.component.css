@@ -1,0 +1,18 @@
+ul {
+  list-style-type: none;
+  padding: 10px;
+  overflow: hidden;
+  background-color: lightgreen;
+}
+
+ul li {
+  float: left;
+}
+
+ul li:not(:first-child) {
+  margin-left: 10px;
+}
+
+ul li a {
+  color: black;
+}

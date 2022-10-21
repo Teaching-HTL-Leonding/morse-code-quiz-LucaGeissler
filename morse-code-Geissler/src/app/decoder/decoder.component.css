@@ -1,0 +1,15 @@
+div{
+  margin-top: 10px;
+}
+
+input{
+  min-width: 30%;
+}
+
+.valid{
+  background-color: green;
+}
+
+.invalid{
+  background-color: red;
+}
